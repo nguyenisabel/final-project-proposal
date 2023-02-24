@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+.wrapper {
+    margin: 3%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    color: #1b9eeb;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    color: #1b9eeb;
+}
+
+#content {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 5px;
+    /* border: 2px solid #1b9eeb; */
+}
+
+#intro {
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: 550;
+}
+
+#group{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 1%;
+}
+#left{
+    grid-row: 1 / 1;
+    grid-template-columns: 1 / 2;
+    margin: 5%;
+}
+#left img {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #1b9eeb;
+}
+#right{
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-left: 20px;
+    grid-row: 1 / 1;
+    grid-template-columns: 2 / 3;
+}
+#right p{
+    text-align: left;
+}
+li {
+    list-style-type: circle;
+}
